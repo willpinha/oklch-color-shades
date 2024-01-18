@@ -2,7 +2,7 @@
 
 > 🌈 A list of 70 color shades made with OKLCH
 
-[Color shades]() • [What is OKLCH?]() • [Algorithm]() 
+[See color shades]() • [What is OKLCH?]() • [Algorithm used](#algorithm) 
 
 ## About
 
