@@ -22,7 +22,7 @@
     const lights = buildLights();
 </script>
 
-<div class="flex flex-col gap-2">
+<div class="flex flex-col">
     <span class="text-sm">{hue}H</span>
 
     <div class="flex gap-2">
