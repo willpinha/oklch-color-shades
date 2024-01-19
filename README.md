@@ -1,14 +1,10 @@
-# Astro Starter Kit: Minimal
+# OKLCH Color Shades
 
-> 🌈 A list of 70 color shades made with OKLCH
+> 🌈 A list of color shades made with OKLCH
 
-[See color shades]() • [What is OKLCH?]() • [Algorithm used](#algorithm) 
+[See color shades]() • [What is OKLCH?]()
 
 ## About
-
-This is a mock text
-
-## Algorithm
 
 This is a mock text
 
