@@ -1,6 +1,5 @@
 <script lang="ts">
     import Shade from "./Shade.svelte";
-    import Navbar from "./Navbar.svelte";
 
     function buildHues() {
         const hues = [];
@@ -16,15 +15,11 @@
         return hues;
     }
 
-    let chroma: number = 0.2;
-
     const hues = buildHues();
 </script>
 
-<Navbar bind:chroma />
-
-<div class="flex flex-col xl:items-center gap-10 pb-6 pt-24 px-8 overflow-x-auto">
+<div class="flex flex-col shades-limit:items-center gap-10 overflow-x-auto">
     {#each hues as hue}
-        <Shade {chroma} {hue} />
+        <Shade {hue} />
     {/each}
 </div>

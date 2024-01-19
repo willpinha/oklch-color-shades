@@ -9,11 +9,3 @@
 
     <span class="text-sm">{light}L</span>
 </div>
-
-<!--
-<div class="flex flex-col justify-between text-sm bg-base-200 w-20">
-    <span>L {light}</span>
-    <span>C {chroma}</span> 
-    <span>H {hue}</span> 
-</div>
--->

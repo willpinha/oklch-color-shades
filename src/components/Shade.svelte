@@ -1,7 +1,8 @@
 <script lang="ts">
+    import chroma from "../stores/chroma";
+
     import Color from "./Color.svelte";
 
-    export let chroma: number;
     export let hue: number;
 
     function buildLights() {
@@ -26,7 +27,7 @@
 
     <div class="flex gap-2">
         {#each lights as l}
-            <Color light={l} {chroma} {hue} />
+            <Color light={l} chroma={$chroma} {hue} />
         {/each}
     </div>
 </div>
