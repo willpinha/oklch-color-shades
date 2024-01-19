@@ -1,13 +1,9 @@
+<div align="center">
+
 # OKLCH Color Shades
 
-> 🌈 A list of color shades made with OKLCH
+*🌈 A list of color shades made with OKLCH*
 
-[See color shades]() • [What is OKLCH?]()
+### [Visit now ↗](https://oklch.willpinha.link)
 
-## About
-
-This is a mock text
-
-## License
-
-This repository is under the [MIT license](LICENSE)
+</div>
