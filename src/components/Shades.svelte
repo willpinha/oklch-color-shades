@@ -23,7 +23,7 @@
 
 <Navbar bind:chroma />
 
-<div class="flex flex-col xl:items-center gap-10 pb-6 pt-28 px-8 overflow-x-auto">
+<div class="flex flex-col xl:items-center gap-10 pb-6 pt-24 px-8 overflow-x-auto">
     {#each hues as hue}
         <Shade {chroma} {hue} />
     {/each}
