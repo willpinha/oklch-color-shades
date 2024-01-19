@@ -1,5 +1,5 @@
 <script lang="ts">
-    import chroma from "../stores/chroma";
+    import { chroma } from "../stores";
 
     import Color from "./Color.svelte";
 

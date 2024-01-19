@@ -1,5 +1,5 @@
 <script lang="ts">
-    import chroma from "../stores/chroma";
+    import { chroma, copied } from "../stores";
 </script>
 
 <div class="flex justify-center w-full p-4 fixed top-0">
@@ -9,6 +9,11 @@
 
             <span class="text-sm">{$chroma}C</span>
         </div>
+            
+        <span class="flex gap-2 text-sm text-success" class:hidden={!$copied}>
+            <i class="fa-solid fa-clipboard"></i>
+            Copied to clipboard!
+        </span>
 
         <a href="https://github.com/willpinha/color-shades" class="btn btn-ghost btn-sm btn-square text-primary-content">
             <i class="fa-brands fa-github text-xl text-primary-content"></i>
