@@ -1,8 +1,8 @@
 <script lang="ts">
     import { chroma, copied } from "../stores";
 
-    const max = 0.37;
-    const increment = 0.01;
+    const max = 0.35;
+    const increment = 0.05;
 
     $: {
         if ($chroma < 0) {
