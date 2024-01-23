@@ -37,6 +37,7 @@
         {#each lights as light}
             <div class="flex flex-col items-center">
                 <button
+                    title="oklch({light}% {$chroma} {hue})"
                     on:click={() => copyCode(light)}
                     class="px-6 py-5 rounded shadow hover:shadow-lg hover:-translate-y-2 hover:duration-200 hover:cursor-copy"
                     style="background-color: oklch({light}% {$chroma} {hue})">
