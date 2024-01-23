@@ -18,15 +18,15 @@
 </script>
 
 <div class="flex justify-center w-full p-4 fixed top-0">
-    <nav class="navbar flex-col bg-base-200 max-w-md rounded-box shadow min-h-0">
+    <nav class="navbar flex-col bg-base-200 max-w-xl rounded-box shadow min-h-0">
         <div class="flex justify-between w-full">
             <div class="flex items-center gap-2">
                 <div class="join">
-                    <button class="join-item btn btn-primary btn-sm" on:click={() => $chroma-=increment }>
+                    <button class="join-item btn btn-primary" on:click={() => $chroma-=increment }>
                         <i class="fa-solid fa-minus"></i>
                     </button>
 
-                    <button class="join-item btn btn-primary btn-sm" on:click={() => $chroma+=increment }>
+                    <button class="join-item btn btn-primary" on:click={() => $chroma+=increment }>
                         <i class="fa-solid fa-plus"></i>
                     </button>
                 </div>
@@ -34,8 +34,8 @@
                 <span class="text-sm">{$chroma}C</span>
             </div>
 
-            <a href="https://github.com/willpinha/color-shades" class="btn btn-ghost btn-sm btn-square text-primary-content">
-                <i class="fa-brands fa-github text-xl text-primary-content"></i>
+            <a href="https://github.com/willpinha/color-shades" class="btn btn-ghost btn-square text-primary-content">
+                <i class="fa-brands fa-github text-2xl text-primary-content"></i>
             </a>
         </div>
 
