@@ -17,7 +17,7 @@
     }
 </script>
 
-<div class="flex justify-center w-full p-4 fixed top-0">
+<div class="flex justify-center w-full p-4 fixed top-0 z-[1]">
     <nav class="navbar flex-col bg-base-200 max-w-xl rounded-box shadow min-h-0">
         <div class="flex justify-between w-full">
             <div class="flex items-center gap-2">
