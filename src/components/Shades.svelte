@@ -9,7 +9,7 @@
 
         while (cur <= max) {
             hues.push(cur);
-            cur += 5;
+            cur += 10;
         }
 
         return hues;
