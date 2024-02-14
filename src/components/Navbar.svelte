@@ -1,11 +1,12 @@
 <script lang="ts">
     import { chroma, copied } from "../stores";
 
-    const max = 0.35;
-    const increment = 0.05;
+    const min = 0.02;
+    const max = 0.36;
+    const increment = 0.02;
 
     $: {
-        if ($chroma < 0) {
+        if ($chroma < min) {
             $chroma += increment;
         }
 
