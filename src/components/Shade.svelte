@@ -28,6 +28,8 @@
     }
 
     const lights = buildLights();
+
+    $: realChroma = $chroma / 100;
 </script>
 
 <div class="flex flex-col">
@@ -37,10 +39,10 @@
         {#each lights as light}
             <div class="flex flex-col items-center">
                 <button
-                    title="oklch({light}% {$chroma} {hue})"
+                    title="oklch({light}% {realChroma} {hue})"
                     on:click={() => copyCode(light)}
                     class="px-6 py-5 rounded shadow hover:shadow-lg hover:-translate-y-2 hover:duration-200 hover:cursor-copy"
-                    style="background-color: oklch({light}% {$chroma} {hue})">
+                    style="background-color: oklch({light}% {realChroma} {hue})">
                 </button>
 
                 <span class="text-sm">{light}L</span>

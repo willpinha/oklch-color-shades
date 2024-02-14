@@ -1,11 +1,13 @@
 <script lang="ts">
     import { chroma, copied } from "../stores";
 
-    const min = 0.02;
-    const max = 0.36;
-    const increment = 0.02;
+    const min = 2;
+    const max = 36;
+    const increment = 2;
 
     $: {
+        console.log($chroma);
+        
         if ($chroma < min) {
             $chroma += increment;
         }
@@ -13,8 +15,6 @@
         if ($chroma > max) {
             $chroma -= increment;
         }
-
-        $chroma = parseFloat($chroma.toFixed(2));
     }
 </script>
 
